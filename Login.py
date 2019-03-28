@@ -1,13 +1,14 @@
 import const
 import re
-from utility import  Utility
-from color import Color
+from Utility import  Utility
+from Color import Color
 from API import API
 
 class Login(object):
     session = Utility.getSession() # 创建session
     def __init__(self):
         self.session = Login.session
+        print('初始化方法')
 
     # 获取验证码正确答案
     def getCaptchaAnswer(self):

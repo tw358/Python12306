@@ -1,5 +1,5 @@
 from datetime import datetime
-from stationCodes import StationCodes
+from StationCodes import StationCodes
 from Color import Color
 import time
 import requests
