@@ -1,4 +1,4 @@
-from codePlatform import  CJYClient
+#from codePlatform import  CJYClient
 import sys
 class Const(object):
     class ConstError(TypeError): pass
@@ -20,7 +20,8 @@ userName = '你的12306账号'
 # 12306密码
 password = '你的12306密码'
 # 超级鹰打码平台
-chaoJiYing = CJYClient('你的超级鹰平台账户', '你的超级鹰平台密码','896970')
+chaoJiYing = "123"
+#chaoJiYing = CJYClient('你的超级鹰平台账户', '你的超级鹰平台密码','896970')
 # 验证码图片路径
 captchaFilePath = 'captcha.jpg'
 # 车站电报码路径
